@@ -3,6 +3,7 @@ package class1;
 /**
  * 배열로 수정
  *  예를들어 데이터 제거시에는 정확한 인덱스에 내용을 제거해야 하기에 이또한 좋은 방법은 아님
+ *  실수를 유발 <-- 이게 제일 문제
  */
 public class ClassStart2 {
     public static void main(String[] args) {
