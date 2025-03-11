@@ -4,7 +4,7 @@ package class1;
  *  학생이 늘어날때마다 변수를 추가로 선언해야하는 문제 발생
  *  -> 일단은 배열을 통해 문제를 해결해보는 과정으로 진행
  */
-public class ClassStart1 {
+public class ClassStart2 {
     public static void main(String[] args) {
         String student1Name = "학생1";
         int student1Age = 15;
