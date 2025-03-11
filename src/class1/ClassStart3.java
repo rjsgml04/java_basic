@@ -28,6 +28,8 @@ public class ClassStart3 {
         student2.age = 16;
         student2.grade = 80;
 
+        Student[] students = new Student[]{student1,student2};
+
         System.out.println("이름:" + student1.name + "나이:" + student1.age + "성적:" + student1.grade);
         System.out.println("이름:" + student2.name + "나이:" + student2.age + "성적:" + student2.grade);
 
@@ -35,5 +37,11 @@ public class ClassStart3 {
         System.out.println("student1객체: " + student1);
         System.out.println("student2객체: " + student2);
 
+
+        //향상된 for문을 통한 최적화
+        for (Student s : students) {
+            System.out.println("이름:" + s.name + "나이:" + s.age + "성적:" + s.grade);
+
+        }
     }
 }
